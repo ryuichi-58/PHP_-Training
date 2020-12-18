@@ -8,18 +8,19 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/style.css">
 
-<title>よくわかるPHPの教科書</title>
+<title>PHP</title>
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">よくわかるPHPの教科書</h1>
+<h1 class="font-weight-normal">PHP</h1>
 </header>
 
 <main>
 <h2>Practice</h2>
 <pre>
 <?php
-
+$week_name = ['日','月','火','水','木','金','土'];
+print(date('w'));
 ?>
 </pre>
 </main>
